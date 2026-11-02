@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>بن مكة | قهوة بطعم الأصالة</title>
+<meta name="description" content="منيو بن مكة: قهوة وإسبريسو ومشروبات ساخنة وباردة. قهوة بطعم الأصالة.">
+<meta name="theme-color" content="#1a0f0a">
+<meta property="og:title" content="بن مكة | قهوة بطعم الأصالة"><meta property="og:description" content="شوف منيو المشروبات كاملة"><meta property="og:image" content="https://ahmedfikry17-cell.github.io/bonmakkah-server/img/logo.png"><meta property="og:type" content="website">
+<link rel="icon" href="img/icon.png"><link rel="apple-touch-icon" href="img/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--gold:#e1b866;--gold2:#b98a3e;--bg:#1a0f0a;--card:#2c1a12;--cream:#f3e6d0;--dim:#a68a62}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:"Cairo","Segoe UI",Tahoma,sans-serif;background:radial-gradient(900px 600px at 50% -80px,#3d2316 0,transparent 70%),var(--bg);color:var(--cream);line-height:1.7;-webkit-font-smoothing:antialiased}
+.hero{text-align:center;padding:calc(env(safe-area-inset-top) + 44px) 20px 34px}
+.hero img{width:min(62vw,250px);height:auto}
+.hero h1{font-size:clamp(30px,7vw,52px);font-weight:800;color:var(--gold);margin-top:6px;line-height:1.3}
+.hero p{color:var(--cream);opacity:.9;font-size:clamp(16px,3.6vw,21px);margin-top:6px}
+.cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-block;padding:14px 28px;border-radius:999px;font-weight:700;font-size:17px;text-decoration:none;transition:.2s}
+.btn.primary{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#2a1409;box-shadow:0 8px 24px rgba(225,184,102,.25)}
+.btn.ghost{border:2px solid var(--gold2);color:var(--gold)}
+.btn:active{transform:scale(.97)}
+nav{position:sticky;top:0;z-index:10;background:rgba(26,15,10,.92);backdrop-filter:blur(10px);border-bottom:1px solid #3a2519;display:flex;gap:8px;justify-content:center;padding:10px 12px calc(10px)}
+nav a{color:var(--cream);text-decoration:none;font-weight:600;font-size:15px;padding:7px 16px;border-radius:999px;border:1px solid #4a3020;white-space:nowrap}
+nav a:hover{border-color:var(--gold);color:var(--gold)}
+main{max-width:1100px;margin:0 auto;padding:10px 16px 60px}
+section{padding-top:34px}
+h2{font-size:clamp(24px,5vw,34px);color:var(--gold);font-weight:800;text-align:center;margin-bottom:6px}
+h2::after{content:"";display:block;width:70px;height:3px;margin:8px auto 22px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+@media(min-width:700px){.grid{grid-template-columns:repeat(3,1fr);gap:20px}}
+@media(min-width:1000px){.grid{grid-template-columns:repeat(4,1fr)}}
+.card{background:var(--card);border:1px solid #4a3020;border-radius:22px;overflow:hidden;display:flex;flex-direction:column;transition:transform .25s,border-color .25s}
+.card:hover{transform:translateY(-4px);border-color:var(--gold2)}
+.card img{width:100%;height:auto;aspect-ratio:1;object-fit:cover;display:block}
+.info{padding:12px 12px 16px;text-align:center}
+.info h3{color:var(--gold);font-size:clamp(17px,4vw,21px);font-weight:800;line-height:1.35}
+.en{display:block;color:var(--dim);font-size:13px;letter-spacing:.3px;direction:ltr}
+.info p{font-size:clamp(13px,3.2vw,15px);opacity:.9;margin-top:4px}
+footer{text-align:center;padding:30px 20px calc(40px + env(safe-area-inset-bottom));border-top:1px solid #3a2519;color:var(--dim)}
+footer img{width:90px;margin-bottom:6px}
+footer strong{color:var(--gold)}
+</style></head><body>
+<header class="hero">
+<img src="img/logo.png" alt="شعار بن مكة" width="250" height="258">
+<h1>قهوة بطعم الأصالة</h1>
+<p>قهوة وإسبريسو ومشروبات ساخنة وباردة.. كل مشروب ليه حكاية</p>
+<div class="cta"><a class="btn primary" href="menu.pdf">افتح المنيو</a><a class="btn ghost" href="menu.pdf" download="menu-ben-makka.pdf">حمّل PDF</a></div>
+</header>
+<nav aria-label="الأقسام"><a href="#coffee">القهوة</a><a href="#hot">الساخنة</a><a href="#cold">الباردة</a></nav>
+<main>
+<section id="coffee"><h2>القهوة</h2><div class="grid">
+<article class="card"><img src="img/d01.jpg" alt="إسبريسو" loading="lazy" width="320" height="320"><div class="info"><h3>إسبريسو</h3><span class="en">Espresso</span><p>صغير في الحجم... كبير في المفعول</p></div></article>
+<article class="card"><img src="img/d02.jpg" alt="إسبريسو ماكياتو" loading="lazy" width="320" height="320"><div class="info"><h3>إسبريسو ماكياتو</h3><span class="en">Espresso Macchiato</span><p>إسبريسو بلمسة رغوة</p></div></article>
+<article class="card"><img src="img/d03.jpg" alt="ريستريتو" loading="lazy" width="320" height="320"><div class="info"><h3>ريستريتو</h3><span class="en">Ristretto</span><p>أقصر... وأقوى</p></div></article>
+<article class="card"><img src="img/d04.jpg" alt="كافيه كريما" loading="lazy" width="320" height="320"><div class="info"><h3>كافيه كريما</h3><span class="en">Caffè Crema</span><p>ناعمة بوش ذهبي</p></div></article>
+<article class="card"><img src="img/d05.jpg" alt="أمريكانو" loading="lazy" width="320" height="320"><div class="info"><h3>أمريكانو</h3><span class="en">Americano</span><p>إسبريسو بنَفَس طويل</p></div></article>
+<article class="card"><img src="img/d06.jpg" alt="قهوة سادة" loading="lazy" width="320" height="320"><div class="info"><h3>قهوة سادة</h3><span class="en">Black Coffee</span><p>صافية... زي ما هي</p></div></article>
+<article class="card"><img src="img/d07.jpg" alt="كافيه كريادور" loading="lazy" width="320" height="320"><div class="info"><h3>كافيه كريادور</h3><span class="en">Café Creador</span><p>قهوة بلمسة خاصة</p></div></article>
+<article class="card"><img src="img/d08.jpg" alt="سلو برو" loading="lazy" width="320" height="320"><div class="info"><h3>سلو برو</h3><span class="en">Slow Brew</span><p>مستخلصة على مهلها</p></div></article>
+<article class="card"><img src="img/d09.jpg" alt="كابتشينو" loading="lazy" width="320" height="320"><div class="info"><h3>كابتشينو</h3><span class="en">Cappuccino</span><p>التوازن المثالي</p></div></article>
+<article class="card"><img src="img/d10.jpg" alt="لاتيه ماكياتو" loading="lazy" width="320" height="320"><div class="info"><h3>لاتيه ماكياتو</h3><span class="en">Latte Macchiato</span><p>طبقات تتشاف قبل ما تتشرب</p></div></article>
+<article class="card"><img src="img/d11.jpg" alt="كافيه لاتيه" loading="lazy" width="320" height="320"><div class="info"><h3>كافيه لاتيه</h3><span class="en">Caffè Latte</span><p>قهوة بالحليب... بنعومة إيطالي</p></div></article>
+<article class="card"><img src="img/d12.jpg" alt="فلات وايت" loading="lazy" width="320" height="320"><div class="info"><h3>فلات وايت</h3><span class="en">Flat White</span><p>حليب حريري وقهوة أقوى</p></div></article>
+<article class="card"><img src="img/d13.jpg" alt="كورتادو" loading="lazy" width="320" height="320"><div class="info"><h3>كورتادو</h3><span class="en">Cortado</span><p>نص قهوة... ونص حليب</p></div></article>
+<article class="card"><img src="img/d14.jpg" alt="كافيه أو ليه" loading="lazy" width="320" height="320"><div class="info"><h3>كافيه أو ليه</h3><span class="en">Café au Lait</span><p>فطار باريسي في فنجان</p></div></article>
+<article class="card"><img src="img/d15.jpg" alt="كافيه كون ليتشي" loading="lazy" width="320" height="320"><div class="info"><h3>كافيه كون ليتشي</h3><span class="en">Café Con Leche</span><p>الصباح على الطريقة الإسبانية</p></div></article>
+<article class="card"><img src="img/d16.jpg" alt="فيرلينجرتر" loading="lazy" width="320" height="320"><div class="info"><h3>فيرلينجرتر</h3><span class="en">Verlängerter</span><p>الإسبريسو النمساوي الممدود</p></div></article>
+<article class="card"><img src="img/d17.jpg" alt="كلاينر براونر" loading="lazy" width="320" height="320"><div class="info"><h3>كلاينر براونر</h3><span class="en">Kleiner Brauner</span><p>«البُني الصغير» من فيينا</p></div></article>
+<article class="card"><img src="img/d18.jpg" alt="فيينا ميلانج" loading="lazy" width="320" height="320"><div class="info"><h3>فيينا ميلانج</h3><span class="en">Wiener Melange</span><p>قهوة فيينا الأشهر</p></div></article>
+<article class="card"><img src="img/d19.jpg" alt="كابوتسينر" loading="lazy" width="320" height="320"><div class="info"><h3>كابوتسينر</h3><span class="en">Kapuziner</span><p>قهوة بتاج من الكريمة</p></div></article>
+<article class="card"><img src="img/d20.jpg" alt="جاروتو" loading="lazy" width="320" height="320"><div class="info"><h3>جاروتو</h3><span class="en">Garoto</span><p>صغير وحنين</p></div></article>
+<article class="card"><img src="img/d21.jpg" alt="سبانش لاتيه" loading="lazy" width="320" height="320"><div class="info"><h3>سبانش لاتيه</h3><p>لبن مكثف وإسبريسو.. حلاوة وقوة</p></div></article>
+</div></section>
+<section id="hot"><h2>المشروبات الساخنة</h2><div class="grid">
+<article class="card"><img src="img/d22.jpg" alt="قهوة تركي" loading="lazy" width="320" height="320"><div class="info"><h3>قهوة تركي</h3><p>رغوة كثيفة وطعم أصيل.. ينقلك لأجمل جلسة</p></div></article>
+<article class="card"><img src="img/d23.jpg" alt="شاي" loading="lazy" width="320" height="320"><div class="info"><h3>شاي</h3><p>كوباية شاي تظبط المزاج.. في أي وقت</p></div></article>
+<article class="card"><img src="img/d24.jpg" alt="شاي فتلة" loading="lazy" width="320" height="320"><div class="info"><h3>شاي فتلة</h3><p>اختار فتلتك المفضلة.. وسيبها تاخد وقتها</p></div></article>
+<article class="card"><img src="img/d25.jpg" alt="شاي أخضر" loading="lazy" width="320" height="320"><div class="info"><h3>شاي أخضر</h3><p>خفيف ومنعش.. لحظة هدوء في وسط يومك</p></div></article>
+<article class="card"><img src="img/d26.jpg" alt="شاي فواكه" loading="lazy" width="320" height="320"><div class="info"><h3>شاي فواكه</h3><p>نكهات وتوابل.. لمسة مختلفة في كل كوباية</p></div></article>
+<article class="card"><img src="img/d27.jpg" alt="نعناع • ينسون" loading="lazy" width="320" height="320"><div class="info"><h3>نعناع • ينسون</h3><p>دفا وراحة.. وطعم الأعشاب اللي بتحبه</p></div></article>
+<article class="card"><img src="img/d28.jpg" alt="قهوة فرنساوي" loading="lazy" width="320" height="320"><div class="info"><h3>قهوة فرنساوي</h3><p>قهوة باللبن ناعمة.. طعم كلاسيك مايتملش</p></div></article>
+<article class="card"><img src="img/d29.jpg" alt="بندق • هوت شوكليت" loading="lazy" width="320" height="320"><div class="info"><h3>بندق • هوت شوكليت</h3><p>كريمة ولبن وحلاوة.. للي بيحب الدفا</p></div></article>
+<article class="card"><img src="img/d30.jpg" alt="كوفي ميكس • نسكافيه" loading="lazy" width="320" height="320"><div class="info"><h3>كوفي ميكس • نسكافيه</h3><p>سريعة وطعمها مظبوط.. كل مرة</p></div></article>
+</div></section>
+<section id="cold"><h2>المشروبات الباردة</h2><div class="grid">
+<article class="card"><img src="img/d31.jpg" alt="كولد برو" loading="lazy" width="320" height="320"><div class="info"><h3>كولد برو</h3><span class="en">Cold Brew</span><p>ناعم وساقع ومن غير مرارة</p></div></article>
+<article class="card"><img src="img/d32.jpg" alt="كولد برو ماكياتو" loading="lazy" width="320" height="320"><div class="info"><h3>كولد برو ماكياتو</h3><span class="en">Cold Brew Macchiato</span><p>انتعاش بطبقة حليب</p></div></article>
+<article class="card"><img src="img/d33.jpg" alt="ليمون" loading="lazy" width="320" height="320"><div class="info"><h3>ليمون</h3><p>حامض منعش.. يبرّد عليك في ثواني</p></div></article>
+<article class="card"><img src="img/d34.jpg" alt="ليمون نعناع" loading="lazy" width="320" height="320"><div class="info"><h3>ليمون نعناع</h3><p>نعناع طازة وليمون ساقع.. انتعاش أخضر</p></div></article>
+<article class="card"><img src="img/d35.jpg" alt="موهيتو" loading="lazy" width="320" height="320"><div class="info"><h3>موهيتو</h3><p>فوّار ومنعش.. الصيف كله في كوباية</p></div></article>
+<article class="card"><img src="img/d36.jpg" alt="موز باللبن" loading="lazy" width="320" height="320"><div class="info"><h3>موز باللبن</h3><p>ناعم.. غني.. ويشبّع</p></div></article>
+<article class="card"><img src="img/d37.jpg" alt="مانجو" loading="lazy" width="320" height="320"><div class="info"><h3>مانجو</h3><p>صيف كامل في كوباية</p></div></article>
+<article class="card"><img src="img/d38.jpg" alt="مياه معدنية" loading="lazy" width="320" height="320"><div class="info"><h3>مياه معدنية</h3><p>باردة ومنعشة.. جاهزة في ثانية</p></div></article>
+<article class="card"><img src="img/d39.jpg" alt="مياه غازية" loading="lazy" width="320" height="320"><div class="info"><h3>مياه غازية</h3><p>فوّارة ومثلّجة.. قدّمها مع وجبتك</p></div></article>
+</div></section>
+</main>
+<footer><img src="img/logo.png" alt=""><br><strong>بن مكة</strong><br>قهوة بطعم الأصالة</footer>
+</body></html>
